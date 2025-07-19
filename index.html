@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI活用術お茶会 - もっと賢く、もっと楽しく！</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.5rem;
+            border: 4px solid white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            border-radius: 8px;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-radius: 50px;
+            margin-top: 2rem;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background-color: #ff4757;
+            transform: translateY(-3px);
+        }
+        .section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #764ba2;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .section h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: #667eea;
+            margin: 0.5rem auto 0;
+        }
+        .worries ul, .benefits ul {
+            list-style: none;
+            padding: 0;
+        }
+        .worries li, .benefits li {
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-left: 5px solid #667eea;
+            border-radius: 4px;
+        }
+        .details-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .details-table th, .details-table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        .details-table th {
+            background-color: #f9f9f9;
+            width: 30%;
+        }
+        .flow-steps {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            gap: 1rem;
+        }
+        .step {
+            flex: 1;
+        }
+        .step-icon {
+            font-size: 3rem;
+            color: #667eea;
+        }
+        .step p {
+            margin-top: 0.5rem;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="profile.png" alt="主催者" class="profile-pic">
+            <h1>AIでもっと賢く、もっと楽しく！</h1>
+            <p>日常や仕事の「面倒」をAIで解決するオンラインお茶会（ミニセミナー付き）</p>
+            <p><strong>開催日時: 2025年8月5日(火) 20:00〜</strong></p>
+            <a href="https://lin.ee/LlA7a3r" class="cta-button">今すぐ公式LINEに登録して参加！</a>
+        </header>
+
+        <main>
+            <section class="section worries">
+                <h2>こんなお悩み、ありませんか？</h2>
+                <ul>
+                    <li>「AIって便利そうだけど、何から手をつければいいか分からない…」</li>
+                    <li>「毎日の情報収集や単純作業に、思ったより時間がかかっている」</li>
+                    <li>「新しいスキルを身につけて、仕事や生活の質を上げたい！」</li>
+                    <li>「周りにAIの話ができる人がいなくて、ちょっと寂しい…」</li>
+                </ul>
+            </section>
+
+            <section class="section benefits">
+                <h2>このお茶会で、未来が少し変わります！</h2>
+                <ul>
+                    <li>明日からすぐに使える、具体的なAI活用法が分かります。</li>
+                    <li>あなたの「面倒」を解決する、ぴったりのAIツールが見つかります。</li>
+                    <li>AIという共通のテーマで、楽しく話せる仲間と繋がれます。</li>
+                    <li>ミニセミナーでAIの基本を学び、自信を持って第一歩を踏み出せます。</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>お茶会の内容</h2>
+                <p>リラックスした雰囲気で、AIについて学び、語り合う90分間です。知識ゼロでも大歓迎！</p>
+                <ol>
+                    <li><strong>ミニセミナー「AIと友達になろう！ChatGPTはじめの一歩」</strong><br>基本のキから、ちょっと便利な使い方まで分かりやすく解説します。</li>
+                    <li><strong>フリートーク＆情報交換会</strong><br>「こんな時どうしてる？」を気軽に相談したり、おすすめのAIツールをシェアし合ったりしましょう。</li>
+                    <li><strong>Q&Aタイム</strong><br>日頃の疑問や不安を、ここでスッキリ解決！</li>
+                </ol>
+                 <p style="text-align:center; margin-top: 2rem;"><strong>参加特典:</strong> すぐに使える「魔法の質問テンプレート集」をプレゼント！</p>
+            </section>
+
+            <section class="section">
+                <h2>開催概要</h2>
+                <table class="details-table">
+                    <tr>
+                        <th>日時</th>
+                        <td>2025年8月5日(火) 20:00〜21:30</td>
+                    </tr>
+                    <tr>
+                        <th>場所</th>
+                        <td>オンライン（Zoomを使用します）</td>
+                    </tr>
+                    <tr>
+                        <th>参加費</th>
+                        <td><strong>無料</strong></td>
+                    </tr>
+                    <tr>
+                        <th>定員</th>
+                        <td>10名様（先着順）</td>
+                    </tr>
+                    <tr>
+                        <th>ご用意いただくもの</th>
+                        <td>お好きなお飲み物とリラックスできる環境</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="section">
+                <h2>参加はカンタン3ステップ</h2>
+                <div class="flow-steps">
+                    <div class="step">
+                        <div class="step-icon">①</div>
+                        <p>下のボタンから<br>公式LINEを友達追加</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">②</div>
+                        <p>LINEに届く案内に沿って<br>参加希望と返信</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">③</div>
+                        <p>参加用URLを<br>LINEでお受け取りください</p>
+                    </div>
+                </div>
+            </section>
+
+            <section style="text-align: center; background: none; box-shadow: none;">
+                <h2>さあ、AIのある毎日を始めましょう！</h2>
+                <p>少しの知識で、あなたの日常はもっとクリエイティブになります。</p>
+                <a href="https://lin.ee/LlA7a3r" class="cta-button">公式LINEに登録して席を確保する</a>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">ご参加を心よりお待ちしております！</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 AI活用推進プロジェクト. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
